@@ -1,0 +1,7 @@
+Server
+mvn -e package -Pserver
+java -jar target/server-fat.jar
+
+Client
+mvn -e package -Pclient
+java -jar target/client-fat.jar
